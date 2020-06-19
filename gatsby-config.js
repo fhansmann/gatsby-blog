@@ -7,6 +7,16 @@ module.exports = {
 
 
   plugins: [
+
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: 'wz1ljcmn46db',
+        accessToken: 'Vy7DAPwXJxkGm4AzwjVbIkoqv-6HCajnXqZtulvt7ok',
+      }
+
+    },
+
     'gatsby-plugin-sass',
 
     {
